@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
         If the User does not agree with the terms of this Privacy Policy, he is obliged to stop using the Site.
       </p>
       <p className="mb-4">
-        The unconditional acceptance of this Privacy Policy is the beginning of the User's use of the Site.
+        The unconditional acceptance of this Privacy Policy is the beginning of the User&apos;s use of the Site.
       </p>
       
       <h2 className="text-2xl font-bold mt-6 mb-4">1. TERMS</h2>
@@ -71,7 +71,7 @@ export default function PrivacyPolicy() {
 
       <h2 className="text-2xl font-bold mt-6 mb-4">3. THE PROCEDURE FOR PROCESSING PERSONAL AND OTHER DATA</h2>
       <p className="mb-4">
-        3.1. The Operator undertakes to use Personal Data in accordance with the Law "On Personal Data" of the Republic of Kazakhstan and internal documents of the Operator.
+        3.1. The Operator undertakes to use Personal Data in accordance with the Law &quot;On Personal Data&quot; of the Republic of Kazakhstan and internal documents of the Operator.
       </p>
       <p className="mb-4">
         3.2. With respect to Personal Data and other User Data, their confidentiality is maintained, except in cases where the specified data is publicly available.
@@ -81,7 +81,7 @@ export default function PrivacyPolicy() {
         The Operator has the right to store Personal Data and Data on servers outside the territory of the Republic of Kazakhstan.
       </p>
       <p className="mb-4">
-        3.4. The Operator has the right to transfer Personal Data and User Data without the User's consent to the following persons:
+        3.4. The Operator has the right to transfer Personal Data and User Data without the User&apos;s consent to the following persons:
       </p>
       <p className="mb-4 ml-6">
         3.4.1 state bodies, including bodies of inquiry and investigation, and local self-government bodies upon their reasoned request;<br />
@@ -92,7 +92,7 @@ export default function PrivacyPolicy() {
       </p>
       <p className="mb-4 ml-6">
         3.5.1 The User has expressed his consent to such actions;<br />
-        3.5.2 the transfer is necessary as part of the User's use of the Site or the provision of Services to the User;
+        3.5.2 the transfer is necessary as part of the User&apos;s use of the Site or the provision of Services to the User;
       </p>
       <p className="mb-4">
         3.6. The Operator performs automated processing of Personal Data and Data.
@@ -111,7 +111,7 @@ export default function PrivacyPolicy() {
         5.1. This Privacy Policy and the relations between the User and the Operator arising in connection with the application of the Privacy Policy are subject to the law of the Republic of Kazakhstan.
       </p>
       <p className="mb-4">
-        5.2. All possible disputes arising from this Agreement are subject to resolution in accordance with applicable law at the Operator's place of registration.
+        5.2. All possible disputes arising from this Agreement are subject to resolution in accordance with applicable law at the Operator&apos;s place of registration.
         Before applying to the court, the User must comply with the mandatory pre-judicial procedure and send the corresponding claim to the Operator in writing. The response time to the claim is 30 (thirty) business days.
       </p>
       <p className="mb-4">

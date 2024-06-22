@@ -12,6 +12,11 @@ const mentorsData = [
     title: 'Mentor for internships and interviews',
     image: '/', 
   },
+  {
+    name: 'Dameli',
+    title: 'Mentor for admission to Europe',
+    image: '/', 
+  },
 ];
 
 export default function Mentors() {
