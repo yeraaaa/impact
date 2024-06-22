@@ -2,8 +2,6 @@ import "./globals.css";
 import { Montserrat } from "next/font/google";
 import { Metadata } from "next";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-
 
 const montserrat = Montserrat({
   subsets: ["latin", "cyrillic"],
@@ -12,7 +10,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Impact",
-  description: "Full support for admission to TOP universities",
+  description: "Full maintenance for admission to TOP universities",
 };
 
 interface RootLayoutProps {
@@ -21,16 +19,14 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <>
-      <html lang="en" suppressHydrationWarning className={montserrat.className}>
-        <head />
-        <body>
-          
-            <Header />
-            <div>{children}</div>
-            <Footer />
-        </body>
-      </html>
-    </>
+    <html lang="en" suppressHydrationWarning className={montserrat.className}>
+      <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" />
+      </head>
+      <body>
+        <Header />
+        <div>{children}</div>
+      </body>
+    </html>
   );
 }

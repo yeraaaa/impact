@@ -1,6 +1,6 @@
 import Chat from "@/components/Chat";
 
-export default function Explain() {
+export default function func() {
   return (
     <>
       <Chat/>

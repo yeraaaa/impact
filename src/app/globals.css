@@ -16,6 +16,24 @@
   }
 }
 
+@layer base {
+  html, body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #root, .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center vertically */
+    min-height: 100vh;
+    text-align: center; /* Ensure text is centered */
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -24,15 +42,46 @@
 
 @keyframes slideInFromRight {
   0% {
-      transform: translateX(100%);
-      opacity: 0;
+    transform: translateX(100%);
+    opacity: 0;
   }
   100% {
-      transform: translateX(0);
-      opacity: 1;
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
 .animate-slideInFromRight {
   animation: slideInFromRight 2s ease-out forwards;
+}
+
+.modal {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9); /* Initial scale for transition */
+  width: 100%;
+  max-width: 500px; /* Adjust for responsiveness */
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  opacity: 0; /* Initial opacity for transition */
+}
+
+.modal.open {
+  transform: translate(-50%, -50%) scale(1); /* Final scale for transition */
+  opacity: 1; /* Final opacity for transition */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 999;
 }

@@ -1,28 +1,35 @@
-import Image from "next/image";
 import Link from "next/link";
-import { FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaTiktok, FaInstagram, FaYoutube, FaLinkedin, FaFacebook } from 'react-icons/fa';
 
 export default function Footer() {
   return (
     <>
-      <div className="flex px-6 py-4 items-center justify-between w-full backdrop-blur-lg">
-        <div className="flex items-center text-center gap-4 md:gap-10">
-          <Link href="/" className="font-bold">
-            <p>
-              <Image width={200} height={100} src="/logo.svg" alt="logo" />
-            </p>
+      <div className="flex flex-col items-center px-6 py-4 w-full">
+        <div className="flex flex-wrap justify-center gap-4 text-sm md:text-md font-medium">
+          <Link href="/privacy-policy">
+            <p className="hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">&copy; Privacy Policy</p>
           </Link>
-          <div className="flex md:gap-8 gap-4 md:text-md text-lg font-medium">
-            <Link href="/about">
-              <p className="hover:text-[#ff1c19]">&copy; Privacy Policy</p>
-            </Link>
-            <a href="tel:+77076229637" target="_blank" rel="noopener noreferrer" className="hover:text-[#ff1c19]">
-              <FaPhone size={30}/>+7 (707)622-96-37
-            </a>
-            <a href="mailto:serikyer0204@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#ff1c19]">
-              <FaEnvelope size={30} />info@impact-admissions.com
-            </a>
-          </div>
+          <a href="tel:+77076229637" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
+            <FaPhone size={20} />+7 (707)622-96-37
+          </a>
+          <a href="mailto:serikyer0204@gmail.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
+            <FaEnvelope size={20} />info@impact-admissions.com
+          </a>
+          <a href="https://www.tiktok.com/@impact.admissions" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
+            <FaTiktok size={20} />TikTok
+          </a>
+          <a href="https://www.instagram.com/impact.admissions/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
+            <FaInstagram size={20} />Instagram
+          </a>
+          <a href="https://www.youtube.com/channel/UCINqtYUUNRQaWNHuwmBPLQw" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
+            <FaYoutube size={20} />YouTube
+          </a>
+          <a href="https://kz.linkedin.com/company/impact-admissions" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
+            <FaLinkedin size={20} />LinkedIn
+          </a>
+          <a href="https://www.facebook.com/people/Impact-Admissions/100076521301169/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
+            <FaFacebook size={20} />Facebook
+          </a>
         </div>
       </div>
     </>
