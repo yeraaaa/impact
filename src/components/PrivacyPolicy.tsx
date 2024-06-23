@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 export default function PrivacyPolicy() {
   return (
-    <div className="max-w-4xl mx-auto px-6 py-10">
-      <h1 className="text-4xl font-bold mb-6">Privacy Policy and Personal Data Processing</h1>
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <h1 className="text-3xl sm:text-4xl font-bold mb-6">Privacy Policy and Personal Data Processing</h1>
       <p className="mb-4">
         This privacy policy and personal data processing regulates the processing and use of personal and other data on the website of NBS Solutions LLP (hereinafter referred to as the Operator). The current version of this Privacy Policy is constantly available for review, and is posted on the Internet at: <a href="https://www.impact-admissions.com" className="text-[#ff1c19] hover:underline">https://www.impact-admissions.com</a>
       </p>
@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
         The unconditional acceptance of this Privacy Policy is the beginning of the User&apos;s use of the Site.
       </p>
       
-      <h2 className="text-2xl font-bold mt-6 mb-4">1. TERMS</h2>
+      <h2 className="text-2xl sm:text-2xl font-bold mt-6 mb-4">1. TERMS</h2>
       <p className="mb-4">
         1.1. Website - a website located on the Internet at <a href="https://www.impact-admissions.com" className="text-[#ff1c19] hover:underline">https://www.impact-admissions.com</a>. All exclusive rights to the Site and its individual elements (including software, design) belong to the Operator in full. The transfer of exclusive rights to the User is not the subject of this Privacy Policy.
       </p>
@@ -43,7 +43,7 @@ export default function PrivacyPolicy() {
         1.8. Service(s) — services provided by the Operator on the basis of an agreement.
       </p>
       
-      <h2 className="text-2xl font-bold mt-6 mb-4">2. COLLECTION AND PROCESSING OF PERSONAL DATA</h2>
+      <h2 className="text-2xl sm:text-2xl font-bold mt-6 mb-4">2. COLLECTION AND PROCESSING OF PERSONAL DATA</h2>
       <p className="mb-4">
         2.1. The Operator collects and stores only those Personal Data that are necessary for the provision of Services by the Operator and interaction with the User.
       </p>
@@ -69,7 +69,7 @@ export default function PrivacyPolicy() {
         2.4. The User is prohibited from specifying personal data of third parties on the Site (except for the condition of representing the interests of these persons, having documentary confirmation of third parties to carry out such actions).
       </p>
 
-      <h2 className="text-2xl font-bold mt-6 mb-4">3. THE PROCEDURE FOR PROCESSING PERSONAL AND OTHER DATA</h2>
+      <h2 className="text-2xl sm:text-2xl font-bold mt-6 mb-4">3. THE PROCEDURE FOR PROCESSING PERSONAL AND OTHER DATA</h2>
       <p className="mb-4">
         3.1. The Operator undertakes to use Personal Data in accordance with the Law &quot;On Personal Data&quot; of the Republic of Kazakhstan and internal documents of the Operator.
       </p>
@@ -98,7 +98,7 @@ export default function PrivacyPolicy() {
         3.6. The Operator performs automated processing of Personal Data and Data.
       </p>
 
-      <h2 className="text-2xl font-bold mt-6 mb-4">4. PROTECTION OF PERSONAL DATA</h2>
+      <h2 className="text-2xl sm:text-2xl font-bold mt-6 mb-4">4. PROTECTION OF PERSONAL DATA</h2>
       <p className="mb-4">
         4.1. The Operator performs proper protection of Personal and other Data in accordance with the Law and takes necessary and sufficient organizational and technical measures to protect Personal Data.
       </p>
@@ -106,7 +106,7 @@ export default function PrivacyPolicy() {
         4.2. The applied protection measures, among other things, allow you to protect Personal Data from unauthorized or accidental access, destruction, modification, blocking, copying, distribution, as well as from other illegal actions with them by third parties.
       </p>
 
-      <h2 className="text-2xl font-bold mt-6 mb-4">5. OTHER PROVISIONS</h2>
+      <h2 className="text-2xl sm:text-2xl font-bold mt-6 mb-4">5. OTHER PROVISIONS</h2>
       <p className="mb-4">
         5.1. This Privacy Policy and the relations between the User and the Operator arising in connection with the application of the Privacy Policy are subject to the law of the Republic of Kazakhstan.
       </p>

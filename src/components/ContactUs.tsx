@@ -12,29 +12,29 @@ export default function ContactUs() {
           <a href="mailto:serikyer0204@gmail.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
             <FaEnvelope size={20} />info@impact-admissions.com
           </a>
-          <a href="https://www.tiktok.com/@yourprofile" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
+          <a href="https://www.tiktok.com/@impact.admissions" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
             <FaTiktok size={20} />TikTok
           </a>
-          <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
+          <a href="https://www.instagram.com/impact.admissions/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
             <FaInstagram size={20} />Instagram
           </a>
-          <a href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
+          <a href="https://www.youtube.com/channel/UCINqtYUUNRQaWNHuwmBPLQw" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
             <FaYoutube size={20} />YouTube
           </a>
-          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
+          <a href="https://kz.linkedin.com/company/impact-admissions" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
             <FaLinkedin size={20} />LinkedIn
           </a>
-          <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
+          <a href="https://www.facebook.com/people/Impact-Admissions/100076521301169/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#ff1c19] transition-colors duration-300 ease-in-out">
             <FaFacebook size={20} />Facebook
           </a>
         </div>
         <div className="w-full">
-          <h2 className="text-3xl font-bold mb-4 text-center">Send Us a Message</h2>
+          <h2 className="text-3xl font-bold mb-4 text-center">Any questions?</h2>
           <form className="flex flex-col gap-4">
-            <input type="text" placeholder="Your Name" className="p-2 border border-gray-300 rounded-md" />
-            <input type="email" placeholder="Your Email" className="p-2 border border-gray-300 rounded-md" />
-            <textarea placeholder="Your Message" className="p-2 border border-gray-300 rounded-md h-32"></textarea>
-            <button type="submit" className="p-2 bg-white border-2 border-[#ff1c19] text-[#ff1c19] rounded-md hover:bg-[#ff1c19] hover:text-white transition-colors duration-300 ease-in-out font-semibold">Send Message</button>
+            <input type="text" placeholder="Your Name" className="p-2 border border-gray-300 rounded-md w-full" />
+            <input type="email" placeholder="Your Email" className="p-2 border border-gray-300 rounded-md w-full" />
+            <textarea placeholder="Your Message" className="p-2 border border-gray-300 rounded-md h-32 w-full"></textarea>
+            <button type="submit" className="p-2 bg-white border-2 border-[#ff1c19] text-[#ff1c19] rounded-md hover:bg-[#ff1c19] hover:text-white transition-colors duration-300 ease-in-out font-semibold w-full md:w-auto">Send Message</button>
           </form>
         </div>
       </div>

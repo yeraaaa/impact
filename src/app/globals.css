@@ -28,9 +28,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Center vertically */
+    justify-content: center;
     min-height: 100vh;
-    text-align: center; /* Ensure text is centered */
+    text-align: center;
   }
 }
 
@@ -60,20 +60,20 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(0.9); /* Initial scale for transition */
-  width: 100%;
-  max-width: 500px; /* Adjust for responsiveness */
+  transform: translate(-50%, -50%) scale(0.9);
+  width: 90%;
+  max-width: 500px;
   background: white;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   z-index: 1000;
-  opacity: 0; /* Initial opacity for transition */
+  opacity: 0;
 }
 
 .modal.open {
-  transform: translate(-50%, -50%) scale(1); /* Final scale for transition */
-  opacity: 1; /* Final opacity for transition */
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
 }
 
 .overlay {
@@ -84,4 +84,10 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.75);
   z-index: 999;
+}
+
+.apply-button {
+  width: 100%;
+  max-width: 200px;
+  margin-top: 1rem;
 }
