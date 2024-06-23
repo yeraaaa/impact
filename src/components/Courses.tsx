@@ -45,7 +45,7 @@ const Course: React.FC<CourseProps> = ({ title, description, youtubeId }) => {
       <h2 className="text-3xl font-bold text-[#ff1c19]">{title}</h2>
       <p className="text-gray-700 mt-2">{description}</p>
       <div className="mt-6">
-        <h3 className="text-5xl font-semibold text-[#ff1c19] text-center mb-4">Impact Blogs and Interviews</h3>
+        <h3 className="text-5xl font-semibold text-center mb-4">Impact Blogs and Interviews</h3>
         <VideoGrid videos={impactVideos} />
         <h3 className="text-5xl font-semibold text-center my-4">Free Courses</h3>
         <h3 className="text-xl font-medium text-center">
