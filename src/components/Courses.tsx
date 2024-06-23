@@ -54,4 +54,12 @@ const Course: React.FC<CourseProps> = ({ title, description, youtubeId }) => {
   );
 };
 
-export default Course;
+const Courses: React.FC<{ courses: CourseProps[] }> = ({ courses }) => (
+  <div>
+    {courses.map((course, index) => (
+      <Course key={index} {...course} />
+    ))}
+  </div>
+);
+
+export default Courses;
