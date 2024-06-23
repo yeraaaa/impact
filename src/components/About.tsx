@@ -29,7 +29,7 @@ const About = () => {
           We are the No. 1 organization for admission abroad and preparation for standardized exams. Impact is not just a company, it is a movement that brings together students, and citizens who integrate their families around the world to study abroad.
         </p>
         <h4 className='text-xl md:text-2xl lg:text-3xl tracking-tight mt-5 font-bold'>
-          Let's make your dream come true
+          Let&apos;s make your dream come true
         </h4>
         <h4 className='text-lg md:text-xl font-semibold'>
           Apply and our manager will contact you
