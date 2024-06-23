@@ -1,6 +1,5 @@
 "use client";
 
-import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 import Image from 'next/image';
