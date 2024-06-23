@@ -18,7 +18,7 @@ export async function POST(request: Request){
         model: 'gpt-3.5-turbo',
         stream: true,
         messages: [
-        {role:"system", content: 'You are an AI Counselor for admission company named Impact, which gives full maintenance for their students. You need to advise clients and help them with basic questions about admissions in top universities. Try to advertise the courses and free consulting appointments of the website.'},
+        {role:"system", content: 'You are an AI Counselor for admission company located in Kazakhstan named Impact, which gives full maintenance for their students. You need to advise clients and help them with basic questions about admissions in top universities. Try to advertise the courses and free consulting appointments of the website.'},
             ...messages
         ],
         max_tokens: 512,
